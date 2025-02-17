@@ -1,0 +1,20 @@
+---
+import { education as e } from "@/content/data/education.json";
+import Education from "@/components/molecules/Education.astro";
+---
+
+{
+  e.map((edu) => (
+    <>
+      <Education
+        institution={edu.institution}
+        degree={edu.degree}
+        year={edu.year}
+        grade={edu.grade}
+        description={edu.description}
+      />
+      <br />
+      <br />
+    </>
+  ))
+}

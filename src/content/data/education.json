@@ -1,0 +1,46 @@
+{
+  "education": [
+    {
+      "institution": "ISG Institut Supérieur de Gestion",
+      "degree": "Bachelor's degree (Year Erasmus Paris), Finance, General",
+      "year": "2013 - 2014",
+      "grade": "9",
+      "description": "Erasmus Year - Paris Grandes Écoles"
+    },
+    {
+      "institution": "Máster en Unión Europea",
+      "degree": "European Union Expert, Derecho de la Unión Europea, Economía y Política Comunitaria",
+      "year": "2019 - 2020",
+      "grade": "8",
+      "description": ""
+    },
+    {
+      "institution": "Universidad Europea Miguel de Cervantes",
+      "degree": "Master's degree, Accounting and Business/Management",
+      "year": "2017 - 2018",
+      "grade": "9",
+      "description": "Máster en Asesoría de Empresas - Fiscal y Contable"
+    },
+    {
+      "institution": "Universidad Rey Juan Carlos",
+      "degree": "Bachelor of Business Administration - BBA, Administración y Dirección de Empresas",
+      "year": "",
+      "grade": "7",
+      "description": "Actividades y grupos: Buddy Erasmus Program. Curso de Verano 2011: La responsabilidad de la sociedad en el fomento de la capacidad emprendedora. Trabajo de fin de grado: Las redes sociales en la empresa. Calificación: 9"
+    },
+    {
+      "institution": "Universidad Rey Juan Carlos",
+      "degree": "Bachelor of Laws - LLB, Grado en Derecho",
+      "year": "",
+      "grade": "7",
+      "description": "Actividades y grupos: Buddy Erasmus Program. II Jornadas de Practica Forense y Proceso Penal 2016. XVI Jornadas sobre la Proteccion Internacional de los Derechos Humanos 2015. Seminarios en 2013 con el Centro de Excelencia 'Espacio de Libertad, Seguridad y Justicia' Universidad Rey Juan Carlos. Accion Jean Monnet. Union Europea. Trabajo de fin de grado: El Derecho Concursal en el deporte. Calificación: 9"
+    },
+    {
+      "institution": "Lycée Espagnol de Paris Luis Buñuel",
+      "degree": "High School Diploma, Ciencias sociales",
+      "year": "2004 - 2007",
+      "grade": "",
+      "description": ""
+    }
+  ]
+}

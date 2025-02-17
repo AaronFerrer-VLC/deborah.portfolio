@@ -1,47 +1,67 @@
 {
   "projects": [
     {
-      "name": "Persona.fm",
-      "description": "A full stack Next.js application that uses the Last.FM API to show users snapshots of their listening habits. This project uses OpenAI's 4o mini model to generate information about a user's listening history on Last.fm for the last 7 days. This is my main project that I am working on, and I am currently in the process of adding more features to the site.",
-      "link": "https://github.com/personafm/persona.fm",
-      "langs": "TypeScript,JavaScript,HTML,CSS,PostgreSQL-Dark",
-      "tools": "NextJS-Dark,TailwindCSS-Dark,Supabase-Dark,React-Dark,Figma-Dark,Markdown-Dark",
-      "date": "Summer 2024 - Present",
-      "custom": {
-        "text": "View live site",
-        "link": "https://personafm.com"
-      }
-    },
-    {
-      "name": "Fake News Detection",
-      "description": "A project where I am working on scraping truthfulness of comments and news relating to political figures and analyzing the data to determine the truthfulness of the news. I am currently in the web scraping phase of the project, and will need large amounts of data prior to training the model. I plan to use Tensorflow for model training, althought this may change as my familiarity with machine learning increases.",
-      "link": "https://github.com/raspberri05/fake-news-detection",
-      "langs": "Python-Dark",
-      "date": "Fall 2024 - Present"
-    },
-    {
-      "name": "ChairSense",
-      "description": "For wheelchair users, it can be hard to see what's behind the chair, especially when backing up or turning, which can be dangerous because there is a high potential to hit an object or person. The aim of this project is to solve that problem by creating a low-cost device that can detect obstacles and warn the wheelchair user so they don't hit objects or people. A future goal is to test this out with other wheelchair users",
-      "link": "https://github.com/raspberri05/chairSense",
-      "langs": "CPP",
-      "tools": "Arduino",
-      "date": "Fall 2021"
-    },
-    {
-      "name": "Software Engineer at XYZ Corp",
-      "description": "Developed and maintained web applications using React and Node.js. Collaborated with cross-functional teams to deliver high-quality software solutions.",
+      "name": "Financial Reporting Analyst - ACPR Banque de France",
+      "description": "BNP Paribas · Jornada completa\nmar. 2023 - actualidad · 2 años\nMadrid, Comunidad de Madrid, España\nAptitudes: Análisis financiero · Contabilidad financiera · Consolidación de estados financieros · Francés · French · Estándares informes financieros internacionales (IFRS) · Gestión de proyectos · Reporting · Elaboración de informes financieros",
       "link": "https://www.linkedin.com/in/deborah-martin-redondo/",
-      "langs": "JavaScript,HTML,CSS",
-      "tools": "React,Node.js,Git",
-      "date": "Jan 2020 - Present"
+      "langs": "",
+      "tools": "",
+      "date": "mar. 2023 - actualidad",
+      "custom": {}
     },
     {
-      "name": "Frontend Developer at ABC Inc",
-      "description": "Worked on the development of responsive web interfaces using Angular and TypeScript. Improved application performance and user experience.",
+      "name": "Securities Specialist - Custody Services - Wealth Management",
+      "description": "UBS · Jornada completa\njun. 2018 - mar. 2023 · 4 años 10 meses\nMadrid, Comunidad de Madrid, España\nAptitudes: Back office · Banca privada · Mercado de valores · Midas · Pagos SWIFT · Mensajería SWIFT · Banca · Custodia · English · Valores (finanzas)",
       "link": "https://www.linkedin.com/in/deborah-martin-redondo/",
-      "langs": "TypeScript,HTML,CSS",
-      "tools": "Angular,TypeScript,Sass",
-      "date": "Jun 2018 - Dec 2019"
+      "langs": "",
+      "tools": "",
+      "date": "jun. 2018 - mar. 2023",
+      "custom": {}
+    },
+    {
+      "name": "Corporate Finance Officer",
+      "description": "Santander Global Operations\nabr. 2017 - abr. 2018 · 1 año 1 mes\nMadrid Area, Spain",
+      "link": "https://www.linkedin.com/in/deborah-martin-redondo/",
+      "langs": "",
+      "tools": "",
+      "date": "abr. 2017 - abr. 2018",
+      "custom": {}
+    },
+    {
+      "name": "Trade Finance Officer",
+      "description": "BNP Paribas\njun. 2016 - dic. 2016 · 7 meses\nParís, Isla de Francia, Francia\nAptitudes: Trade Finance · Elaboración de informes · International Trade · PowerPoint",
+      "link": "https://www.linkedin.com/in/deborah-martin-redondo/",
+      "langs": "",
+      "tools": "",
+      "date": "jun. 2016 - dic. 2016",
+      "custom": {}
+    },
+    {
+      "name": "Customer Service",
+      "description": "Disneyland Paris\ndic. 2011 - ene. 2016 · 4 años 2 meses\nParís y alrededores, Francia",
+      "link": "https://www.linkedin.com/in/deborah-martin-redondo/",
+      "langs": "",
+      "tools": "",
+      "date": "dic. 2011 - ene. 2016",
+      "custom": {}
+    },
+    {
+      "name": "Customer Service",
+      "description": "Inditex\nsept. 2011 - dic. 2011 · 4 meses\nLondon, Reino Unido",
+      "link": "https://www.linkedin.com/in/deborah-martin-redondo/",
+      "langs": "",
+      "tools": "",
+      "date": "sept. 2011 - dic. 2011",
+      "custom": {}
+    },
+    {
+      "name": "Group Leader",
+      "description": "ASTEX\njul. 2011 - ago. 2011 · 2 meses\nShrewsbury, Inglaterra, Reino Unido",
+      "link": "https://www.linkedin.com/in/deborah-martin-redondo/",
+      "langs": "",
+      "tools": "",
+      "date": "jul. 2011 - ago. 2011",
+      "custom": {}
     }
   ]
 }

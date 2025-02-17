@@ -1,23 +1,26 @@
 ---
-import { projects as p } from "@/content/data/projects.json"
-import Project from "@/components/molecules/Project.astro"
+import { projects } from "../../content/data/projects.json"
+import Project from "../molecules/Project.astro"
 ---
 
 {
-  p.map((project) => (
-    <>
-      <Project
-        name={project.name}
-        description={project.description}
-        href={project.link}
-        ctext={project.custom?.text}
-        clink={project.custom?.link}
-        langs={project.langs}
-        tools={project.tools}
-        date={project.date}
-      />
-      <br />
-      <br />
-    </>
-  ))
+  projects.map((project) => {
+    const custom = project.custom || {};
+    return (
+      <>
+        <Project
+          name={project.name}
+          description={project.description}
+          href={project.link}
+          ctext={custom.text || ""}
+          clink={custom.link || ""}
+          langs={project.langs}
+          tools={project.tools}
+          date={project.date}
+        />
+        <br />
+        <br />
+      </>
+    );
+  })
 }
