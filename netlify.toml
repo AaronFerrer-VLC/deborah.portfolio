@@ -1,6 +1,6 @@
 [build]
   command = "npm install react-scripts && npm run build"
-  publish = "/opt/build/repo/build""
+  publish = "/opt/build/repo/build"
 
 [dev]
   command = "npm start"
