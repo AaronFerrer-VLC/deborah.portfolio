@@ -1,7 +1,7 @@
 [build]
-  command = "npm install react-scripts && npm run build"
-  publish = "/opt/build/repo/build"
+  command = "npm run build"
+  publish = "dist"
 
 [dev]
-  command = "npm start"
+  command = "npm run dev"
   port = 3000

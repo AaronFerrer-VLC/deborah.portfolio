@@ -26,6 +26,22 @@
       "langs": "CPP",
       "tools": "Arduino",
       "date": "Fall 2021"
+    },
+    {
+      "name": "Software Engineer at XYZ Corp",
+      "description": "Developed and maintained web applications using React and Node.js. Collaborated with cross-functional teams to deliver high-quality software solutions.",
+      "link": "https://www.linkedin.com/in/deborah-martin-redondo/",
+      "langs": "JavaScript,HTML,CSS",
+      "tools": "React,Node.js,Git",
+      "date": "Jan 2020 - Present"
+    },
+    {
+      "name": "Frontend Developer at ABC Inc",
+      "description": "Worked on the development of responsive web interfaces using Angular and TypeScript. Improved application performance and user experience.",
+      "link": "https://www.linkedin.com/in/deborah-martin-redondo/",
+      "langs": "TypeScript,HTML,CSS",
+      "tools": "Angular,TypeScript,Sass",
+      "date": "Jun 2018 - Dec 2019"
     }
   ]
 }
