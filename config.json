@@ -1,0 +1,7 @@
+{
+  "glob-loader": {
+    "patterns": [
+      "**/*.md"
+    ]
+  }
+}
