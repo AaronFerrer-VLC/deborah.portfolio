@@ -11,9 +11,9 @@ import partytown from "@astrojs/partytown";
 
 export default defineConfig({
   site: "https://deborah-martin-redondo.netlify.app",
-  image: {
-    domains: ["raw.githubusercontent.com"],
-  },
+  //image: {
+   // domains: ["raw.githubusercontent.com"],
+  //},
   integrations: [
     react(),
     tailwind({
