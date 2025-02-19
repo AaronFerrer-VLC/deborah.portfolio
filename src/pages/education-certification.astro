@@ -1,0 +1,27 @@
+---
+import PageLayout from "@/layouts/PageLayout.astro";
+import Education from "@/components/molecules/Education.astro";
+import Certification from "@/components/molecules/Certification.astro";
+import certificationData from "@/content/data/certification.json";
+import educationData from "@/content/data/education.json";
+
+const certificationItems = certificationData.certifications;
+const educationItems = educationData.education;
+---
+
+<PageLayout>
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+    <div>
+      <h2 class="text-2xl font-bold mb-4 text-center">Educación</h2>
+      {educationItems.map((item) => (
+        <Education {...item} />
+      ))}
+    </div>
+    <div>
+      <h2 class="text-2xl font-bold mb-4 text-center">Certificaciones</h2>
+      {certificationItems.map((item) => (
+        <Certification {...item} />
+      ))}
+    </div>
+  </div>
+</PageLayout>

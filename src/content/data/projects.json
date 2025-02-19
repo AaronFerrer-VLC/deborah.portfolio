@@ -1,66 +1,87 @@
 {
   "projects": [
     {
+      "title": "Financial Reporting Analyst - ACPR Banque de France",
       "name": "Financial Reporting Analyst - ACPR Banque de France",
-      "description": "BNP Paribas · Jornada completa\nmar. 2023 - actualidad · 2 años\nMadrid, Comunidad de Madrid, España\nAptitudes: Análisis financiero · Contabilidad financiera · Consolidación de estados financieros · Francés · French · Estándares informes financieros internacionales (IFRS) · Gestión de proyectos · Reporting · Elaboración de informes financieros",
+      "description": "BNP Paribas · Jornada completa\nmar. 2023 - actualidad · 2 años\nMadrid, Spain\nAptitudes: Análisis financiero · Contabilidad financiera · Consolidación de estados financieros · Francés · French · Estándares informes financieros internacionales (IFRS) · Gestión de proyectos · Reporting · Elaboración de informes financieros",
       "link": "https://www.linkedin.com/in/deborah-martin-redondo/",
       "langs": "",
       "tools": "",
       "date": "mar. 2023 - actualidad",
+      "company": "bnp",
+      "skills": "Análisis financiero, Contabilidad financiera, Consolidación de estados financieros, French, Estándares informes financieros internacionales (IFRS), Gestión de proyectos, Reporting, Elaboración de informes financieros",
       "custom": {}
     },
     {
+      "title": "Securities Specialist - Custody Services - Wealth Management",
       "name": "Securities Specialist - Custody Services - Wealth Management",
-      "description": "UBS · Jornada completa\njun. 2018 - mar. 2023 · 4 años 10 meses\nMadrid, Comunidad de Madrid, España\nAptitudes: Back office · Banca privada · Mercado de valores · Midas · Pagos SWIFT · Mensajería SWIFT · Banca · Custodia · English · Valores (finanzas)",
+      "description": "UBS · Jornada completa\njun. 2018 - mar. 2023 · 4 años 10 meses\nMadrid, Spain\nAptitudes: Back office · Banca privada · Mercado de valores · Midas · Pagos SWIFT · Mensajería SWIFT · Banca · Custodia · English · Valores (finanzas)",
       "link": "https://www.linkedin.com/in/deborah-martin-redondo/",
       "langs": "",
       "tools": "",
       "date": "jun. 2018 - mar. 2023",
+      "company": "ubs",
+      "skills": "Back office, Banca privada, Mercado de valores, Midas, Pagos SWIFT, Mensajería SWIFT, Banca, Custodia, English, Valores (finanzas)",
       "custom": {}
     },
     {
+      "title": "Corporate Finance Officer",
       "name": "Corporate Finance Officer",
       "description": "Santander Global Operations\nabr. 2017 - abr. 2018 · 1 año 1 mes\nMadrid Area, Spain",
       "link": "https://www.linkedin.com/in/deborah-martin-redondo/",
       "langs": "",
       "tools": "",
       "date": "abr. 2017 - abr. 2018",
+      "company": "santander",
+      "skills": "",
       "custom": {}
     },
     {
+      "title": "Trade Finance Officer",
       "name": "Trade Finance Officer",
-      "description": "BNP Paribas\njun. 2016 - dic. 2016 · 7 meses\nParís, Isla de Francia, Francia\nAptitudes: Trade Finance · Elaboración de informes · International Trade · PowerPoint",
+      "description": "BNP Paribas\njun. 2016 - dic. 2016 · 7 meses\nParís, Isle of France, France\nAptitudes: Trade Finance · Elaboración de informes · International Trade · PowerPoint",
       "link": "https://www.linkedin.com/in/deborah-martin-redondo/",
       "langs": "",
       "tools": "",
       "date": "jun. 2016 - dic. 2016",
+      "company": "bnp",
+      "skills": "Trade Finance, Elaboración de informes, International Trade, PowerPoint",
       "custom": {}
     },
     {
+      "title": "Customer Service",
       "name": "Customer Service",
-      "description": "Disneyland Paris\ndic. 2011 - ene. 2016 · 4 años 2 meses\nParís y alrededores, Francia",
+      "description": "Disneyland Paris\ndic. 2011 - ene. 2016 · 4 años 2 meses\nParís, France",
       "link": "https://www.linkedin.com/in/deborah-martin-redondo/",
       "langs": "",
       "tools": "",
       "date": "dic. 2011 - ene. 2016",
+      "company": "disney",
+      "skills": "",
       "custom": {}
     },
     {
+      "title": "Customer Service",
       "name": "Customer Service",
-      "description": "Inditex\nsept. 2011 - dic. 2011 · 4 meses\nLondon, Reino Unido",
+      "description": "Inditex\nsept. 2011 - dic. 2011 · 4 meses\nLondon, United Kingdom",
       "link": "https://www.linkedin.com/in/deborah-martin-redondo/",
       "langs": "",
       "tools": "",
       "date": "sept. 2011 - dic. 2011",
+      "company": "inditex",
+      "skills": "",
       "custom": {}
     },
     {
+      "title": "Group Leader",
       "name": "Group Leader",
-      "description": "ASTEX\njul. 2011 - ago. 2011 · 2 meses\nShrewsbury, Inglaterra, Reino Unido",
+      "description": "ASTEX\njul. 2011 - ago. 2011 · 2 meses\nShrewsbury, England, United Kingdom",
       "link": "https://www.linkedin.com/in/deborah-martin-redondo/",
       "langs": "",
       "tools": "",
       "date": "jul. 2011 - ago. 2011",
+      "company": "astex",
+      "skills": "",
       "custom": {}
     }
   ]

@@ -1,0 +1,18 @@
+---
+import { certifications as c } from "@/content/data/certification.json";
+import Certification from "@/components/molecules/Certification.astro";
+---
+
+{
+  c.map((cer) => (
+    <>
+      <Certification
+        institution={cer.title}
+        degree={cer.issuer}
+        year={cer.year}
+      />
+      <br />
+      <br />
+    </>
+  ))
+}

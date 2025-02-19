@@ -3,24 +3,22 @@ import { projects } from "../../content/data/projects.json"
 import Project from "../molecules/Project.astro"
 ---
 
-{
-  projects.map((project) => {
-    const custom = project.custom || {};
-    return (
-      <>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+  {
+    projects.map((project) => {
+      const custom = project.custom || {}
+      return (
         <Project
-          name={project.name}
+          title={project.title}
+          company={project.company}
           description={project.description}
           href={project.link}
-          ctext={custom.text || ""}
-          clink={custom.link || ""}
           langs={project.langs}
           tools={project.tools}
           date={project.date}
+          skills={project.skills}
         />
-        <br />
-        <br />
-      </>
-    );
-  })
-}
+      );
+    })
+  }
+</div>

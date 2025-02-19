@@ -1,6 +1,16 @@
 {
   "education": [
     {
+      "institution": "4Geeks Academy",
+      "degree": "Cybersecurity Specialist",
+      "year": "2024-2025",
+      "description":["Gain a solid Windows, Linux, network, and server administration foundation, and the practical skills to secure these environments.", 
+      "Learn to master cloud security, penetration testing (both offensive and defensive), and cyber threat intelligence analysis.", 
+      "Become proficient at managing risks using data loss prevention (DLP) strategies and navigating compliance with international standards such as ISO 27001 and NIST."],
+      "logo": "4geeks"
+    },
+
+    {
       "institution": "ISG Institut Supérieur de Gestion",
       "degree": "Bachelor's degree (Year Erasmus Paris), Finance, General",
       "year": "2013 - 2014",

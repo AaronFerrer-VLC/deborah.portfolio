@@ -9,10 +9,12 @@ import sitemap from "@astrojs/sitemap";
 
 import partytown from "@astrojs/partytown";
 
+
 export default defineConfig({
+  // change the 'site' value to your site's domain
   site: "https://deborah-martin-redondo.netlify.app",
   //image: {
-   // domains: ["raw.githubusercontent.com"],
+    //domains: ["raw.githubusercontent.com"],
   //},
   integrations: [
     react(),

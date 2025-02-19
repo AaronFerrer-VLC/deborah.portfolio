@@ -1,0 +1,70 @@
+{
+  "certifications": [
+    {
+      "title": "European Financial Advisor EFA",
+      "issuer": "EFPA Europe │ European Financial Planning Association",
+      "year": "sept. 2022",
+      "credential_id": "ES 20220262 - Asociado: 37034",
+      "link": "https://www.efpa-europe.org/",
+      "logo": "efpa"
+    },
+    {
+      "title": "Excel 2017 Advanced Course",
+      "issuer": "London Institute of Business Studies",
+      "year": "oct. 2018",
+      "link": "https://www.londonibs.co.uk/",
+      "logo":"london"
+    },
+    {
+      "title": "Proficiency (CPE) – CEFR level C2",
+      "issuer": "Cambridge Institute (Madrid - España)",
+      "year": "may. 2016",
+      "link": "https://www.cambridgeinstitute.net/",
+      "logo": "cambridge"
+    },
+    {
+      "title": "DALF C1",
+      "issuer": "Alliance Française de Paris",
+      "year": "may. 2014",
+      "link": "https://www.alliancefr.org/",
+      "logo": "af"
+    },
+    {
+      "title": "Certificate in Business Management",
+      "issuer": "UK Home Learning College",
+      "year": "jun. 2012",
+      "link": "https://www.ukhomelearningcollege.co.uk/",
+      "logo":"uk"
+    },
+    {
+      "title": "Agile Business Analysis",
+      "issuer": "Udemy",
+      "link": "https://www.udemy.com/",
+      "logo": "udemy"
+    },
+    {
+      "title": "Alteryx",
+      "issuer": "UBS",
+      "link": "https://www.ubs.com/",
+      "logo": "ubs"
+    },
+    {
+      "title": "Introduction to Machine Learning for Data Science",
+      "issuer": "Udemy",
+      "link": "https://www.udemy.com/",
+      "logo": "udemy"
+    },
+    {
+      "title": "Robot Operator Course",
+      "issuer": "UBS",
+      "link": "https://www.ubs.com/",
+      "logo": "ubs"
+    },
+    {
+      "title": "Robotic Process Automation: RPA Fundamentals + Build a Robot",
+      "issuer": "Udemy",
+      "link": "https://www.udemy.com/",
+      "logo": "udemy"
+    }
+  ]
+}
