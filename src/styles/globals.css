@@ -114,22 +114,29 @@ body {
   color: #fff;
   overflow: hidden;
   border-right: 0.15em solid black;
-  white-space: nowrap;
-  animation:
-    typing 3.5s steps(30, end),
-    blink-caret 0.75s step-end infinite,
-    hide-caret 0s step-end 3.5s forwards;
+  white-space: nowrap; 
+  text-align: center;
+  max-width: 100%;
+  margin: auto;
+  display: inline-block;
+  font-size: clamp(0.8rem, 4vw, 1.5rem); 
+  animation: typing 3.5s steps(40, end) forwards, blink-caret 0.75s step-end infinite;
+  padding: 0 1rem; 
+}
+
+@media (max-width: 480px) {
+  .typewriter h1 {
+    font-size: 0.85rem; 
+    letter-spacing: -0.5px; 
+  }
 }
 
 @keyframes typing {
-  0% {
-    width: 0;
+  from {
+    clip-path: inset(0 100% 0 0); 
   }
-  10% {
-    width: 0;
-  }
-  100% {
-    width: 100%;
+  to {
+    clip-path: inset(0 0 0 0); 
   }
 }
 
@@ -150,4 +157,5 @@ body {
   to {
     border-color: transparent;
   }
+  
 }

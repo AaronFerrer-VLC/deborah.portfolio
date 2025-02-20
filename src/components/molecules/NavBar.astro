@@ -3,8 +3,41 @@ import LinkBtn from "@/components/atoms/LinkBtn.astro";
 import { pages } from "@/content/data/navbar.json";
 ---
 
-<div
-  class="navbar flex justify-center gap-[10px] py-2 z-50 dark:bg-zinc-800 bg-zinc-100 opacity-100"
->
-  {pages.map((page) => <LinkBtn href={page.link} text={page.name} size="lg" />)}
-</div>
+<nav class="bg-white dark:bg-gray-800 shadow-md fixed w-full z-50">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="flex justify-center h-16">
+      <div class="hidden md:flex md:items-center md:space-x-6">
+        {pages.map((page) => (
+          <a href={page.link} class="text-gray-800 dark:text-gray-100 hover:text-gray-600 dark:hover:text-gray-400 transition-colors duration-300">
+            {page.name}
+          </a>
+        ))}
+      </div>
+      <div class="md:hidden flex items-center">
+        <button id="menu-button" class="text-gray-800 dark:text-gray-100 hover:text-gray-600 dark:hover:text-gray-400 focus:outline-none">
+          <svg class="h-6 w-6" stroke="currentColor" fill="none" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </div>
+   <div id="menu" class="hidden md:hidden flex flex-col items-center space-y-4 py-4">
+    {pages.map((page) => (
+      <a href={page.link} class="block w-full py-2 text-gray-800 dark:text-gray-100 text-lg hover:bg-gray-200 dark:hover:bg-gray-700 transition-colors duration-300">
+        {page.name}
+      </a>
+    ))}
+  </div>
+</nav>
+
+<script>
+  document.addEventListener("DOMContentLoaded", () => {
+    const menuButton = document.getElementById("menu-button");
+    const menu = document.getElementById("menu");
+
+    menuButton.addEventListener("click", () => {
+      menu.classList.toggle("hidden");
+      menu.classList.toggle("flex");
+    });
+  });

@@ -1,23 +1,21 @@
 ---
-import { Button } from "@/components/ui/button";
-import DefaultLayout from "@/layouts/DefaultLayout.astro";
-const { title, header, subheader, btntext, link } = Astro.props;
+import { Button } from "@/components/ui/button"
+import DefaultLayout from "@/layouts/DefaultLayout.astro"
+const { title, header, subheader, btntext, link } = Astro.props
 ---
 
 <DefaultLayout title={title}>
-  <div
-    class="flex flex-col h-[75vh] text-center justify-center items-center fade text-white"
-  >
-    <div class="text-[4rem] text-center">
+  <div class="flex flex-col h-[75vh] text-center justify-center items-center fade text-white px-4">
+    <div class="text-[2rem] md:text-[4rem] text-center">
       {header}
     </div>
     <div class="typewriter">
-      <h1 class="text-[1.2rem] md:text-2xl">{subheader}</h1>
+      <h1 class="text-xs sm:text-sm md:text-xl break-words whitespace-pre-wrap text-wrap text-center w-full max-w-[90%] md:max-w-[70%] leading-snug overflow-wrap">{subheader}</h1>
     </div>
     <br />
     <a href={link}>
       <Button className="bg-white hover:bg-black">
-        <p class="text-xl text-black hover:text-white">{btntext}</p>
+        <p class="text-lg md:text-xl text-black hover:text-white">{btntext}</p>
       </Button>
     </a>
   </div>
