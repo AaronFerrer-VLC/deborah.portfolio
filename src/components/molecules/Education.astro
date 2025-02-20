@@ -1,5 +1,5 @@
 ---
-const { institution, degree, year, grade, description, logo } = Astro.props;
+const { institution, degree, year, grade, description, logo, link } = Astro.props;
 ---
 
 <div class="rounded-xl bg-white/30 dark:bg-gray-800/30 border-none shadow-xl mx-2 md:mx-12 fade p-4 mb-4">
@@ -15,4 +15,14 @@ const { institution, degree, year, grade, description, logo } = Astro.props;
   <p class="text-sm pt-2 text-gray-700 dark:text-gray-400">{year}</p>
   {grade && <p class="text-sm pt-2 text-gray-700 dark:text-gray-400">{grade}</p>}
   <p class="text-sm pt-2 text-gray-700 dark:text-gray-400">{description}</p>
+  {link && (
+    <a
+      href={link}
+      target="_blank"
+      rel="noopener noreferrer"
+      class="mt-2 block text-blue-500 hover:underline"
+    >
+      Ver más
+    </a>
+  )}
 </div>
